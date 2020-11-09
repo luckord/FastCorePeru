@@ -1,0 +1,77 @@
+* {
+    font-family: italic bold Georgia, Serif;
+}
+
+body {
+    background: url(../img/tecnologia.jpg)no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    padding: 90px;
+}
+
+.landing {
+    background-color: rgba(6, 5, 90, 0.5);
+    padding: 1px;
+    border-radius: 40px;
+}
+
+.cabecera {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(6, 5, 90, 0.8);
+    border-radius: 70px;
+    padding: 0px;
+}
+
+.titulo {
+    font-weight: bold;
+    padding-top: 5px;
+    color: #FFF;
+    margin: 0 auto;
+    font: italic bold 50px Georgia, Serif;
+    text-shadow: -4px 3px 0 rgb(0, 0, 0), -7px 5px 0 rgb(197, 9, 9);
+}
+
+.sub-titulo {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.logo {
+    background-color: rgb(255, 255, 255, .95);
+    padding: 2px;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.promocion {
+    font-size: 30px;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+.ofertas {
+    color: white;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.tituloSuscribete {
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 0.2em rgb(175, 20, 20);
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+hr {
+    background-color: rgb(255, 0, 0);
+}
