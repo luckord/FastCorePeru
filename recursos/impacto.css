@@ -1,0 +1,12 @@
+.titulo_impacto {
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 100px;
+    text-shadow: -4px 3px 0 #ff0202, -14px 7px 0 #000000;
+}
+
+.sub-titulo {
+    color: rgb(255, 0, 0);
+}
