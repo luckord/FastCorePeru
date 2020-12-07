@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -42,6 +41,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="recursos/estilo.css">
+    <link rel="stylesheet" href="recursos/impacto.css">
     <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
     <!-- Facebook Pixel Code -->
     <script>
@@ -92,12 +92,12 @@
                             <a class="nav-link" href="index.htm">Catálogo</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Nosotros
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Nosotros<span class="sr-only">(current)</span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="fastcore.htm">FastCorePerú</a>
-                                <a class="dropdown-item" href="faq.htm">FAQ</a>
+                                <a class="dropdown-item active" href="#">FastCorePerú</a>
+                                <a class="dropdown-item" href="landing.htm">FAQ</a>
                                 <a class="dropdown-item" href="landing.htm">Landing</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="impacto.htm">Impacto social</a>
@@ -112,76 +112,26 @@
         </nav>
     </div>
     <main>
-
-        <br>
-        <div class="container cuerpo">
-            <div class="card col-sm-12 border-danger">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="img/web-cam-logitech.jpg" class="card-img" alt="...">
+        <div class="container col-sm-10">
+            <div class="jumbotron bg-danger text-white">
+                <h1 class="display-3">FastCorePeru</h1>
+                <p class="lead">Conectados a tu necesidad.</p>
+                <hr class="my-2 bg-light">
+            </div>
+            <div class="list-group">
+                <div class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Visión</h5>
                     </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <div class="text-center">
-                                <h1 class="card-title">Datos de compra</h1>
-                            </div>
-                            <div class="container">
-                                <form>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="nom">Nombre</label>
-                                            <input type="text" class="form-control" id="nom">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="ape">Apellido</label>
-                                            <input type="text" class="form-control" id="ape">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="pro">Producto</label>
-                                        <input type="text" class="form-control" id="pro" placeholder="HD WEBCAM LOGITECH C270" readonly>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="pro">Monto</label>
-                                        <input type="text" class="form-control" id="pro" placeholder="S/. 123.00" readonly>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="pro">Medio de pago</label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group form-check">
-                                        <div class="form-group">
-                                            <div class="form-row">
-                                                <div class="form-check form-check-inline">
-                                                    <a href="#">
-                                                        <img src="img/medios/yape.png" width="100px" alt="" srcset="">
-                                                    </a>
-                                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
-                                                </div>
-                                                <div class="form-check form-check-inline">
-                                                    <a href="#">
-                                                        <img src="img/medios/paypal.png" width="100px" alt="" srcset="">
-                                                    </a>
-                                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option2">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="tienda">Tienda de recojo</label>
-                                        <select class="form-control" id="tienda">
-                                          <option>Los Olivos - Av. Carlos Izaguirre 1434</option>
-                                          <option>Comas - Av. Tupac Amaru 1029</option>
-                                          <option>Carabayllo - Av- Tupac Amaru 1802</option>
-                                        </select>
-                                    </div>
-                                    <button type="submit" class="btn btn-warning">Comprar</button>
-                                </form>
-                            </div>
-
-                        </div>
+                    <p class="mb-1">Ser una Empresa Lider en el Mercado , brindando servicios de ventas de accesorios de Computo y asistiendo personalmente en el menor tiempo posible a satisfacer las necesidades del cliente, dandole asi atencion personalizada y una supervision
+                        constante de sus equipos.</p>
+                </div>
+                <div class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Misión</h5>
                     </div>
+                    <p class="mb-1">Empresa de Servicio Dedicada a Satisfacer las Necesidades en venta de accesorios y Mantenimiento que el Cliente Requiera, elevando asi el rendimiento en sus equipos de computo de una manera rapida y comoda, atraves del diagnostico
+                        y supervision de nuestro personal.</p>
                 </div>
             </div>
         </div>
