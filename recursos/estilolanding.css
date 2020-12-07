@@ -1,8 +1,5 @@
-* {
+.cuerpo {
     font-family: italic bold Georgia, Serif;
-}
-
-body {
     background: url(../img/tecnologia.jpg)no-repeat center center fixed;
     background-size: cover;
     -moz-background-size: cover;
